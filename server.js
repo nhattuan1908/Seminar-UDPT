@@ -18,7 +18,7 @@
   var file = new static.Server(path.join(__dirname, '/', 'public'));
 
   function handler(req, res) {
-    file.serve(req, res);
+    file.server(req, res);
   }
 
   var io = sio.listen(app),
