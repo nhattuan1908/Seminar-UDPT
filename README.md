@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< eec950518c513291dacd8d1a5444742c555d47ac
 # Seminar-UDPT
 =======
@@ -33,3 +34,6 @@ Once the demo app is installed, you can run the demo from the root directory. yo
 ```
 
 >>>>>>> First Commit
+=======
+# Seminar-UDPT
+>>>>>>> eec950518c513291dacd8d1a5444742c555d47ac
