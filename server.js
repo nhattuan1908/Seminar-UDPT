@@ -4,12 +4,9 @@
     sio = require('socket.io'),
     static = require('node-static');
 
-  var express = require('express');
-  var app2 = express();
-
-  
-  var app = require('http').createServer(app2);
+  var app = require('http').createServer(handler);
   var port = process.env.PORT || 8000;
+  
   app.listen(port, function(){
   	console.log('Server listening at port %d', port);
   });
