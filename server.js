@@ -4,8 +4,8 @@
     sio = require('socket.io'),
     static = require('node-static');
 
-  var express = require('express');
-  var app2 = express();
+  //var express = require('express');
+  //var app2 = express();
 
   
   var app = require('http').createServer(handler);
